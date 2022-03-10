@@ -12,6 +12,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    'no-alert': 0,
   },
   plugins: ['prettier'],
 };
